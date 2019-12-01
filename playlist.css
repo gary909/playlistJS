@@ -1,6 +1,7 @@
 body {
-    font-family: arial, sans-serif;
-    background-color: #d5ffff;
+    font-family: 'Alatsi', sans-serif;
+    background-color: #E4DBCA;
+    color: rgb(54, 52, 52);
 }
 
 ul#playlist {
@@ -14,14 +15,14 @@ ul#playlist {
 }
 
 ul#playlist li {
-	border-bottom: 1px solid #a9a9a9;
+	border-bottom: 1px solid rgb(#F29200);
 	padding: 10px;
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#f9f9f9), to(#e3e3e3));
-    background-image: -moz-linear-gradient(#f9f9f9, #e3e3e3);
-    background-image: -ms-linear-gradient(#f9f9f9, #e3e3e3);
-    background-image: -o-linear-gradient(#f9f9f9, #e3e3e3);
-    background-image: -webkit-linear-gradient(#f9f9f9, #e3e3e3);
-    background-image: linear-gradient(#f9f9f9, #e3e3e3);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(241, 161, 41)), to(rgb(243, 170, 61)));
+    background-image: -moz-linear-gradient(rgb(240, 160, 41), rgb(243, 170, 61));
+    background-image: -ms-linear-gradient(#F29200), rgb(243, 170, 61));
+    background-image: -o-linear-gradient(#F29200), rgb(243, 170, 61));
+    background-image: -webkit-linear-gradient(#F29200), rgb(243, 170, 61));
+    background-image: linear-gradient(rgb(#F29200), rgb(243, 170, 61));
 }
 
 ul#playlist li:last-child {
